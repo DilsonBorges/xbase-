@@ -1,0 +1,34 @@
+//
+// Project - Definition - File created by PBUILD Version  1.82.294
+// Date: 20/06/2005 Time: 09:45:10
+//
+
+[PROJECT]
+    COMPILE       = xpp
+    COMPILE_FLAGS = /q /dll:dynamic
+    DEBUG         = yes
+    GUI           = yes
+    LINKER        = alink
+    LINK_FLAGS    = 
+    RC_COMPILE    = arc
+    RC_FLAGS      = /v
+    PROJECT.XPJ
+
+[PROJECT.XPJ]
+    AJAX.DLL
+
+[AJAX.DLL]
+// $START-AUTODEPEND
+    AJAX.OBJ
+    STD.CH
+    SET.CH
+    NATMSG.CH
+    GET.CH
+    PROMPT.CH
+    MEMVAR.CH
+    COLLAT.CH
+    COMMON.CH
+    DLL.CH
+    AJAX.DEF
+// $STOP-AUTODEPEND
+    AJAX.PRG
